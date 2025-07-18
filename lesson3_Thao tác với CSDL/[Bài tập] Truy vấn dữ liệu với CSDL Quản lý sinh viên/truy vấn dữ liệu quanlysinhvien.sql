@@ -5,7 +5,8 @@ SELECT
 FROM
     student
 WHERE
-    StudentName LIKE 'h%'c thông tin môn học có thời gian bắt đầu vào tháng 12
+    StudentName LIKE 'h%';
+-- hiển thị thông tin môn học có thời gian bắt đầu vào tháng 12
 select * from class where StartDate like '%12%';
 
 -- Hiển thị tất cả các thông tin môn học có credit trong khoảng 3-5
