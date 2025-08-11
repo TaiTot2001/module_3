@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: admin
-  Date: 06/08/2025
-  Time: 19:28
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -44,10 +37,20 @@
         </td>
       </tr>
       <tr>
+        <th>Permission:</th>
+        <td>
+          <input type="checkbox" name="add" size="15"/> add |
+          <input type="checkbox" name="edit" size="15"/> edit |
+          <input type="checkbox" name="delete" size="15"/> delete |
+          <input type="checkbox" name="view" size="15"/> view
+        </td>
+      </tr>
+      <tr>
         <td colspan="2" align="center">
           <input type="submit" value="Save"/>
         </td>
       </tr>
+
     </table>
   </form>
 </div>
