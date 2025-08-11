@@ -32,8 +32,8 @@
 <form method="post" action="student?action=delete&id=${student.id}">
   <input type="hidden" name="id" value="${student.id}">
   <input type="hidden" name="action" value="delete">
-  <button type="submit" class="btn btn-primary">Xóa</button>
-  <a href="/student" class="btn btn-secondary">Hủy</a>
+  <button type="submit" class="btn btn-primary">Delete</button>
+  <a href="/student" class="btn btn-secondary">Cancel</a>
 </form>
 </body>
 </html>
