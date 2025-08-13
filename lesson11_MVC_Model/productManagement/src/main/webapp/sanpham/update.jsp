@@ -24,7 +24,8 @@
     <input type="text" id="id" name="description" value="${prd.description}"><br>
     <label for="manufacturer">Mã sản phẩm</label>
     <input type="text" id="id" name="manufacturer" value="${prd.manufacturer}"><br>
-    <button type="submit">Cập nhật</button><br>
+    <button type="submit">Cập nhật</button>
+    <br>
     <a href="/sanpham?action=list">Quay lại</a>
 </form>
 </body>

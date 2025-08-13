@@ -28,9 +28,9 @@
             <td>${student.name}</td>
             <td>${student.email}</td>
             <td>
-                <a href="?action=detail&id=${student.id}">Detail</a>
-                <a href="?action=update&id=${student.id}">Update</a>
-                <a href="?action=delete&id=${student.id}">Delete</a>
+                <a href="?action=detail&id=${student.id}" class="btn btn-primary">Detail</a>
+                <a href="?action=update&id=${student.id}" class="btn btn-success">Update</a>
+                <a href="?action=delete&id=${student.id}" class="btn btn-danger">Delete</a>
             </td>
         </tr>
     </c:forEach>
